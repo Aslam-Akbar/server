@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "id": "8a65",
+      "name": "asd",
+      "description": "asdas",
+      "price": "1500",
+      "imageUrl": "/uploads/images/wedding.jpg"
+    },
+    {
+      "id": "87c3",
+      "name": "Mohamed",
+      "description": "cxas",
+      "price": "1500",
+      "imageUrl": "/uploads/images/18_12_2023-best_blazers_for_men_23607898.jpg"
+    }
+  ]
+}

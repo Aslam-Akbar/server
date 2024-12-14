@@ -55,7 +55,8 @@ app.post("/upload", upload.single("file"), (req, res) => {
 // Serve uploaded images statically
 app.use("/images", express.static(path.join(__dirname, uploadDir)));
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
